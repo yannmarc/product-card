@@ -30,6 +30,15 @@ button {
     display: block;
     padding-block: 16px;
     text-align: center;
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--ntrl-d-blue);
 }
 
 h1, h2,
